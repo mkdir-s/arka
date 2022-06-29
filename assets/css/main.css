@@ -234,7 +234,6 @@ body {
   display: -ms-grid;
   display: grid;
   background-color: #fff;
-  -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   margin-bottom: 46px;
 }
@@ -329,7 +328,6 @@ body {
 .custom__box-items {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   -ms-grid-column: 100;
   grid-column: 100px;
@@ -395,7 +393,6 @@ body {
 .advantage__items {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   -webkit-column-gap: 177px;
           column-gap: 177px;
@@ -437,7 +434,6 @@ body {
 .request__box-wrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
 }
 
